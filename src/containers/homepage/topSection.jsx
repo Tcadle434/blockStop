@@ -104,7 +104,7 @@ export function TopSection(props) {
     return(
         < TopContainer>
         <Element name="topSection">
-        <VideoTwo autoPlay loop muted>
+        <VideoTwo autoPlay loop muted playsInline>
             <source src={BackgroundImg} type="video/mp4" />
         </VideoTwo>
             <Overlay> 
