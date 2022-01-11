@@ -94,7 +94,7 @@ export function FooterSection(props) {
             Twitter: @abcdefg <br />
             Discord: inv.link/kjklc <br />
             Email: vspr.agency@gmail.com <br /> <br />
-            @ 2022 VSPR Blockchain
+            @ 2022 BlockStop
         </Details>
       </FooterContainer>
   

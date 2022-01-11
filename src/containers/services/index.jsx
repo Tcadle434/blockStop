@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { ServiceSectionContent } from "./serviceSection";
-import { FooterSection } from "./footerSection";
+import { FooterSection } from "../homepage/footerSection";
 
 
 const PageContainer = styled.div`

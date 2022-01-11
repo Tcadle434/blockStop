@@ -137,8 +137,8 @@ export function ServiceSectionContent(props) {
             <Fade top>
             <SubTitle>Development</SubTitle>
             <List>
-                <ListItem>Website Design + Development from in house devs</ListItem>
-                <ListItem>Web3 Integration</ListItem>
+                <ListItem>Full Stack Web3 Development</ListItem>
+                <ListItem>Website Design + Development from in-house devs</ListItem>
                 <ListItem>Seamless minting process on ETH or SOL</ListItem>
                 <ListItem>Custom Smart Contracts (ETH)</ListItem>
                 <ListItem>Audited Rust Programs (SOL)</ListItem>
@@ -148,12 +148,9 @@ export function ServiceSectionContent(props) {
             <Fade top>
             <SubTitle>Art (creation + generation)</SubTitle>
             <List>
-                <ListItem>Unique and original art created from well connected artists</ListItem>
-                <ListItem>Programmatic script to generate all unique NFT combos</ListItem>
+                <ListItem>Network of proven NFT artists</ListItem>
+                <ListItem>Programmatic script to generate all unique NFT generative combinations</ListItem>
                 <ListItem>Creation of Metadata files associated with each NFT</ListItem>
-                <ListItem>2D or 3D</ListItem>
-                <ListItem>Custom Logo design + creation</ListItem>
-                <ListItem>Custom graphics to use on Social Media</ListItem>
             </List>
             </Fade>
           </ContentContainer>

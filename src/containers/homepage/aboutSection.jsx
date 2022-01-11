@@ -47,8 +47,8 @@ export function AboutSection(props) {
     <AboutContainer name="aboutSection">
     <ContentContainer>
     <AboutContent
-    subTitle="what is"
-    title= "VSPR Blockchain"
+    subTitle="What is"
+    title= "BlockStop"
     descriptionOne="Our aim is to integrate industry leading names and brands into web3 + NFTs. With experts in product strategy, marketing and development, we have all the resources needed to help grow and deploy quality projects. The new age of the internet is advancing rapidly, but there are still countless opportunities for innovation"
     descriptionTwo="In such a fast moving environment, we are here to educate and seamlessly bridge companies and top tier talent into an expanding digital world. From shaping your NFT project roadmap, to organic community growth across social media platforms, and completed with custom websites + deployment processes, we are ready to guide those who want to make their mark on the blockchain"
     imageUrl={CubeImg}
