@@ -9,6 +9,12 @@ const TeamContainer = styled.div`
   align-items: center;
   text-align: center;
   margin: 20px 20px;
+  transition: all 220ms ease-in-out;
+
+  &:hover {
+    border: none;
+    transform:scale(1.1, 1.1);
+  }
 
   @media screen and (max-width: 480px) {
 
@@ -39,7 +45,7 @@ const Img = styled.img`
 
 
 export function TeamService(props) {
-    const { imageUrl, name } = props;
+    const { imageUrl, name, onHover } = props;
     
       return (
         <Rotate top right>

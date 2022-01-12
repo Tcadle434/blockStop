@@ -79,7 +79,7 @@ export function PartnerSection(props) {
     return(
         <PageContainer>
         <Navbar />
-        <Title>Partners</Title>
+        <Title>Our Work</Title>
         <ContentContainer>
         <Details>Our goal at BlockStop is to provide expertise in whichever facet our clients may need. Here are some highlighted projects we've worked with, including
             specifics on how we were able to help them

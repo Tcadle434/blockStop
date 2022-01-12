@@ -16,7 +16,7 @@ const FooterContainer = styled(Element)`
 const Title = styled.h2`
     color: #FFFFFF;
     font-family: Oxanium-Regular;
-    font-size: 50px;
+    font-size: 32px;
     margin-block-start: 1.5em;
     margin-block-end: 0.3em;
     line-height: 55px;
@@ -78,23 +78,9 @@ export function FooterSection(props) {
     return (
       <FooterContainer name="footerSection">
         <Title>Contact Us</Title>
-        <ContentRow>
-        <ButtonWrap>
-            <a href = "https://discord.gg/Vk26nVgTMk">
-            <SocialMediaImg src={DiscordImg} />
-            </a>
-          </ButtonWrap>
-          <ButtonWrap>
-            <a href="https://twitter.com/AntiSocialBots">
-            <SocialMediaImg src={TwitterImg} />
-            </a>
-          </ButtonWrap>
-        </ContentRow>
+
         <Details>
-            Twitter: @abcdefg <br />
-            Discord: inv.link/kjklc <br />
-            Email: vspr.agency@gmail.com <br /> <br />
-            @ 2022 BlockStop
+            contact@blockstop.xyz <br /> <br />
         </Details>
       </FooterContainer>
   

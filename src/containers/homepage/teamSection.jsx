@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Element } from "react-scroll";
 import { TeamService } from "../../components/teamMember";
 import ProfImg from "../../assets/pictures/profpic.png";
+import TestImg from "../../assets/pictures/chfty.png";
 
 
 const TeamContainer = styled(Element)`
@@ -66,10 +67,6 @@ export function TeamSection(props) {
                 name="blockChief"
               />
               <TeamService 
-                imageUrl={ProfImg}
-                name="blockChief"
-              />
-             <TeamService 
                 imageUrl={ProfImg}
                 name="blockChief"
               />
