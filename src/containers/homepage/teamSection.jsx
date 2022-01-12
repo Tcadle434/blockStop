@@ -64,22 +64,22 @@ export function TeamSection(props) {
           <ContentRow>
               <TeamService 
                 imageUrl={ProfImg}
-                name="blockChief"
+                name="Nick"
               />
               <TeamService 
                 imageUrl={ProfImg}
-                name="blockChief"
+                name="Jared"
               />
           </ContentRow>
 
           <ContentRow>
               <TeamService 
                 imageUrl={ProfImg}
-                name="blockChief"
+                name="Sean"
               />
               <TeamService 
                 imageUrl={ProfImg}
-                name="blockChief"
+                name="Thomas"
               />
           </ContentRow>
       </TeamContainer>
