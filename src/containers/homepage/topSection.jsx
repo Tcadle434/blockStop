@@ -3,6 +3,14 @@ import styled from "styled-components";
 import { Element } from "react-scroll";
 import BackgroundImg from "../../assets/pictures/backgroundtrim.mov";
 import { Navbar } from "../../components/navbar";
+// import AWS from 'aws-sdk';
+
+// var s3 = new AWS.S3({region: "us-east-1"});
+// var params = {
+//     Bucket: "blockstop",
+//     Key: "backgroundofficial.mov"
+// }
+// const preSignUrl = s3.getSignedUrl("getObject", params);
 
 const TopContainer = styled.div`
     width: 100%;
@@ -105,7 +113,7 @@ export function TopSection(props) {
         < TopContainer>
         <Element name="topSection">
         <VideoTwo autoPlay loop muted playsInline>
-            <source src={BackgroundImg} type="video/mp4" />
+            <source src="https://vsprblockchain.s3.us-east-1.amazonaws.com/backgroundtrim.mov" type="video/mp4" />
         </VideoTwo>
             <Overlay> 
                 <Navbar />
