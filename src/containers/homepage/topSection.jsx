@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Element } from "react-scroll";
-// import BackgroundImg from "../../assets/pictures/chaintrim.mov";
+import BackgroundImg from "../../assets/pictures/compressback.mp4";
 import { Navbar } from "../../components/navbar";
 // import AWS from 'aws-sdk';
 
@@ -113,7 +113,7 @@ export function TopSection(props) {
         < TopContainer>
         <Element name="topSection">
         <VideoTwo autoPlay loop muted playsInline>
-            <source src="https://vsprblockchain.s3.us-east-1.amazonaws.com/compressback.mp4" type="video/mp4" />
+            <source src={BackgroundImg} type="video/mp4" />
         </VideoTwo>
             <Overlay> 
                 <Navbar />
