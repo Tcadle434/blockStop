@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Element } from "react-scroll";
-import BackgroundImg from "../../assets/pictures/chaintrim.mov";
+import BackgroundImg from "../../assets/pictures/backgroundsd.mov";
 import { Navbar } from "../../components/navbar";
 // import AWS from 'aws-sdk';
 
