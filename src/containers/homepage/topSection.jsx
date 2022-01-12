@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Element } from "react-scroll";
-import BackgroundImg from "../../assets/pictures/backgroundofficial.mov";
+import BackgroundImg from "../../assets/pictures/backgroundtrim.mov";
 import { Navbar } from "../../components/navbar";
 
 const TopContainer = styled.div`
