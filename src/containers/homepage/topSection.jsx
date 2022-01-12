@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Element } from "react-scroll";
-import BackgroundImg from "../../assets/pictures/blackwhite1.mp4";
+import BackgroundImg from "../../assets/pictures/test.mp4";
 import { Navbar } from "../../components/navbar";
 // import AWS from 'aws-sdk';
 
