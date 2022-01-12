@@ -112,7 +112,7 @@ export function TopSection(props) {
     return(
         < TopContainer>
         <Element name="topSection">
-        <VideoTwo autoPlay loop muted playsInline>
+        <VideoTwo autoPlay loop muted playsInline controls="false">
             <source src="https://vsprblockchain.s3.us-east-1.amazonaws.com/compressback.mp4" type="video/mp4" />
         </VideoTwo>
             <Overlay> 
