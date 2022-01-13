@@ -7,7 +7,7 @@ const ServiceContainer = styled.div`
   padding: 10px;
   align-items: center;
   text-align: center;
-
+  width: 25%;
   @media screen and (max-width: 480px) {
     display: inline-block;
 
@@ -45,7 +45,7 @@ const Details = styled.p`
 
 const DescriptionContainer = styled.div`
   height: 7em;
-  
+
   @media screen and (min-width: 900px) and (max-width: 1440px) {
     height: 15em;
 
