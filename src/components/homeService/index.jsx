@@ -11,6 +11,7 @@ const ServiceContainer = styled.div`
 
   @media screen and (max-width: 480px) {
     display: inline-block;
+    width: 100%;
 
 }
 
