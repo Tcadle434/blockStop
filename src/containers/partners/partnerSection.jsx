@@ -81,7 +81,7 @@ export function PartnerSection(props) {
         <Navbar />
         <Title>Our Work</Title>
         <ContentContainer>
-        <Details>Our goal at BlockStop is to provide expertise in whichever facet you may need on your Web3 journey. Here are some highlighted projects we've worked with, including
+        <Details>Our goal at BlockStop is to provide expertise in all areas you will encounter on your Web3 journey. Here are some highlighted projects we've worked with, including
             specifics on how we were able to help them
         </Details>
 
