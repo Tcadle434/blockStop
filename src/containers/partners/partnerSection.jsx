@@ -58,7 +58,7 @@ const Title = styled.h2`
 
     @media screen and (max-width: 480px) {
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
 }
 `;
 
@@ -81,15 +81,15 @@ export function PartnerSection(props) {
         <Navbar />
         <Title>Our Work</Title>
         <ContentContainer>
-        <Details>Our goal at BlockStop is to provide expertise in whichever facet our clients may need. Here are some highlighted projects we've worked with, including
+        <Details>Our goal at BlockStop is to provide expertise in whichever facet you may need on your Web3 journey. Here are some highlighted projects we've worked with, including
             specifics on how we were able to help them
         </Details>
 
         <Fade top>
         <AboutContent
             title= "Fyat Lux"
-            descriptionOne="Fyat Lux integrates AR technology with NFTs in an awesome artstic creation by Anthony Jones"
-            descriptionTwo="We lead the marketing effort for Fyat Lux's NFT campaign, growing their Twitter and Discord followings from xxxx to xx,xxx and helping to ensure a sellout that raised over 1,000 ETH"
+            descriptionOne="Developed by a world-class team that has worked for MIT, Google, Nintendo, Riot, Activision Blizzard, Netflix, Vuforia, Wayfair, and Disney, Fyat Lux combines groundbreaking technologies with mind-blowing art to launch the next evolution of NFTs for world-building and storytelling"
+            descriptionTwo="The Blockstop team propelled Fyat Lux to a sell out in < 24 hours with over 1000+ ETH in sales and 300% growth across Discord, Instagram and Twitter"
             imageUrl={FyatImg}
         />
         </Fade>
@@ -98,7 +98,7 @@ export function PartnerSection(props) {
         <AboutContent
             title= "CHFTY Pizzas"
             descriptionOne="Led by two culinary experts who are excited to dive head first into the metaverse, Tom Colicchio and Spike Mendelsohn are building the largest chef and foodie community in NFTs"
-            descriptionTwo="We are currently leading the marketing efforts for CHFTY, helping to get these incredible chefs surrounded by a supportive and excited NFT community"
+            descriptionTwo="BlockStop is leading the product strategy and marketing efforts for CHFTY, with a focus to organically grow their community and provide long term value to the CHFTY Pizza holders"
             imageUrl={ChftyImg}
             isReversed
         />

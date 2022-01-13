@@ -80,7 +80,7 @@ export function FooterSection(props) {
         <Title>Contact Us</Title>
 
         <Details>
-            contact@blockstop.xyz <br /> <br />
+          contact@blockstop.xyz <br /> <br />
         </Details>
       </FooterContainer>
   

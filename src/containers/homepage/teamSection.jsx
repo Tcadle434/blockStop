@@ -2,7 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { Element } from "react-scroll";
 import { TeamService } from "../../components/teamMember";
-import ProfImg from "../../assets/pictures/profpic.png";
+import ThomasImg from "../../assets/pictures/forevclone.png";
+import SeanImg from "../../assets/pictures/tion.png";
+import NickImg from "../../assets/pictures/nick.png";
+import JaredImg from "../../assets/pictures/jared.png";
 import TestImg from "../../assets/pictures/chfty.png";
 
 
@@ -32,11 +35,17 @@ const Details = styled.p`
   color: #FFFFFF;
   font-family: Oxanium-Regular;
   font-size: 20px;
+  width: 60%;
+  text-align: center;
+
+  @media screen and (min-width: 480px) and (max-width: 1420px) {
+    width: 80%;
+  }
 
   @media screen and (max-width: 480px) {
+    text-align: left;
     font-size: 16px;
-    width: 90%;
-    text-align: center;
+    width: 80%;
 }
 `;
 
@@ -59,27 +68,27 @@ export function TeamSection(props) {
     return (
       <TeamContainer name="teamSection">
           <Title>Meet The Team </Title>
-          <Details>The team is comprised of crypto + NFT natives as well as marketing and techncial experts</Details>
+          <Details>BlockStop is a strategic group of like-minded individuals  focused on disrupting the NFT space. Our team of crypto + NFT natives have extensive marketing and technical expertise in strategy, development and overall marketing implementation. With cross-industry experience ranging from major financial institutions to the entertainment industry, the BlockStop team can translate the technical complexities to best suit your business</Details>
 
           <ContentRow>
               <TeamService 
-                imageUrl={ProfImg}
-                name="Nick"
+                imageUrl={NickImg}
+                name="Nick Poto"
               />
               <TeamService 
-                imageUrl={ProfImg}
-                name="Jared"
+                imageUrl={JaredImg}
+                name="Jared Nozick"
               />
           </ContentRow>
 
           <ContentRow>
               <TeamService 
-                imageUrl={ProfImg}
-                name="Sean"
+                imageUrl={SeanImg}
+                name="Sean Funke"
               />
               <TeamService 
-                imageUrl={ProfImg}
-                name="Thomas"
+                imageUrl={ThomasImg}
+                name="Thomas Cadle"
               />
           </ContentRow>
       </TeamContainer>

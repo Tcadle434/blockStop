@@ -61,17 +61,17 @@ const Overlay = styled.div`
 
 const NameText = styled.h1`
   font-family: Oxanium-SemiBold;
-  font-size: 82px;
+  font-size: 120px;
   color: #FFFFFF;
   text-align: center;
   margin-block-start: 1.5em;
 
     @media screen and (min-width: 1024px) and (max-width: 1420px) {
-        font-size: 64px;
+        font-size: 84px;
     }
 
     @media screen and (min-width: 480px) and (max-width: 1024px) {
-        font-size: 48px;
+        font-size: 64px;
     }
 
   @media screen and (max-width: 480px) {
@@ -118,11 +118,10 @@ export function TopSection(props) {
             <Overlay> 
                 <Navbar />
                 <NameText>
-                    The <br />
                     BlockStop
                 </NameText>
                 <SloganText>
-                    Your NFT one stop shop. Bringing high caliber clients and brands onto the Blockchain 
+                  Strategy, Marketing, Development of NFT Projects - Welcome To Web3 
                 </SloganText>          
             </Overlay>
 

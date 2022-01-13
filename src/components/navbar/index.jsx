@@ -65,7 +65,7 @@ export function Navbar(props) {
           <Button small> Services</Button>
         </Link>
         <Link to="/partners">
-          <Button small> Partners</Button>
+          <Button small> Clients</Button>
         </Link>
           <Button small onClick={scrollToFooterSection}> Contact</Button>
       </AccessibilityContainer>

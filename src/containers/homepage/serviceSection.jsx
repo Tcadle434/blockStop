@@ -1,10 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import { Element } from "react-scroll";
-import { MarketingService, DevService, ArtService } from "../../components/homeService";
+import { MarketingService, DevService, ArtService, StrategyService, DeployService } from "../../components/homeService";
 import KeyboardImg from "../../assets/pictures/keyboard.png";
 import MessageImg from "../../assets/pictures/message.png";
 import PencilImg from "../../assets/pictures/pencil.png";
+import BrainImg from "../../assets/pictures/brain.png";
+import RocketImg from "../../assets/pictures/rocket.png";
 import Fade from 'react-reveal/Fade';
 import { motion } from "framer-motion"
 
@@ -37,7 +39,6 @@ const CenterContainer = styled.div`
 `;
 
 const ContentContainer = styled.div`
-    width: 70%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -57,15 +58,21 @@ export function ServiceSection(props) {
 
      <CenterContainer>
       <ContentContainer>
+      <StrategyService
+      title="Strategy"
+      description="Each NFT project is unique. Our team has the expertise to navigate your project vision and discover critical value adds through Web3 integration"
+      imageUrl={ BrainImg }
+
+      />
       <MarketingService
       title="Marketing"
-      description="Ensure your project is noticed by all the right eyes, with an emphasis on organic community growth"
+      description="Your project will thrive. BlockStop prides itself on community building, partnerships, marketing, engagement and organic growth"
       imageUrl={ MessageImg }
 
       />
       <DevService
       title="Development"
-      description="Custom websites built in-house from the ground up, with web3 integration on either ETH or SOL"
+      description="Custom websites with Web3 integration and minting capabilities on either the Ethereum or Solana Blockchain"
       imageUrl={ KeyboardImg }
 
       />

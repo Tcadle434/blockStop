@@ -97,8 +97,8 @@ const { subTitle, title, descriptionOne, descriptionTwo, imageUrl, isReversed } 
   return (
     <RowContainer isReversed={isReversed}>
     <ServiceContainer >
-          <SubTitle>{subTitle}</SubTitle>
           <Title> {title} </Title>
+          <SubTitle>{subTitle}</SubTitle>
           <DescriptionContainer>
           <Details> {descriptionOne} </Details>
           <Details> {descriptionTwo} </Details>

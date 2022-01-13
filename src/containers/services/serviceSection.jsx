@@ -45,6 +45,22 @@ const SubTitle = styled.h2`
   }
 `;
 
+const MidTitle = styled.h2`
+  color: #FFFFFF;
+  font-family: Oxanium-Regular;
+  font-size: 46px;
+  margin-block-start: 2em;
+  line-height: 55px;
+  margin-block-end: 0.4em;
+  align-items: center;
+  text-align: center;
+
+  @media screen and (max-width: 480px) {
+    text-align: center;
+    font-size: 24px;
+  }
+`;
+
 const Title = styled.h2`
     color: #FFFFFF;
     font-family: Oxanium-Regular;
@@ -55,7 +71,7 @@ const Title = styled.h2`
 
     @media screen and (max-width: 480px) {
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
 }
 `;
 
@@ -64,7 +80,7 @@ const Details = styled.p`
   font-family: Oxanium-Regular;
   font-size: 20px;
   text-align: center;
-  margin-block-end: 5em;
+  margin-block-end: 2em;
 
   @media screen and (max-width: 480px) {
     font-size: 16px;
@@ -95,50 +111,46 @@ export function ServiceSectionContent(props) {
           <Navbar />
           <Title>Services</Title>
           <ContentContainer>
-          <Details>BlockStop offers a variety of services to aid in your NFT projects creation and growth: Education, consulting, full marketing packages, development and artwork. 
-              We have experience in all facets and want to ensure quality projects have the tools and insight needed to succeed
+          <Details>In an ever-changing digital world, BlockStop will seamlessly bridge your brand with the metaverse. From bringing your imagination to reality, to shaping your NFT project roadmap and growing an organic community, Blockstop offers a wide array of services aimed to fit your vision
           </Details>
-
           <Fade top>
-          <SubTitle>Consulting / Assessment</SubTitle>
+          <MidTitle>How To Work With Blockshop?</MidTitle>
+          <SubTitle>Audit / Assessment</SubTitle>
           <List>
-              <ListItem>Initial 1 hour intake + debrief of the projects goals + current status </ListItem>
-              <ListItem>General roadmap creation + release strategy</ListItem>
-              <ListItem>1x - 2x weekly meetings to provide guidance + feedback + advice moving forward</ListItem>
-              <ListItem>SOPs regarding the best ways to grow follower counts + engagement and overall marketing strategy</ListItem>
+              <ListItem>Our team will conduct an Initial onboarding & assessment - how can we help you?</ListItem>
+              <ListItem>Internally, we will figure out the best  strategic solution for your project</ListItem>
+              <ListItem>Our team will follow up with an audit and best next steps to work together and ensure your project is a success</ListItem>
           </List>
           </Fade>
 
           <Fade top>
-          <SubTitle>Marketing Package</SubTitle>
+          <MidTitle>What We Offer</MidTitle>
+
+          <SubTitle>Marketing & Growth</SubTitle>
             <List>
-                <ListItem>Social Media Management and Posting</ListItem>
-                <ListItem>Roadmap creation</ListItem>
-                <ListItem>Content Creation + Release Strategy</ListItem>
-                <ListItem>Project Collab introductions + tips</ListItem>
-                <ListItem>Influencer partnership outreach + tips</ListItem>
-                <ListItem>Brand Language development</ListItem>
-                <ListItem>Twitter Spaces</ListItem>
-                <ListItem>NFT + Whitelist Giveaways</ListItem>
+                <ListItem>Social Media management, strategy, implementation and execution</ListItem>
+                <ListItem>Roadmap creation & deployment</ListItem>
+                <ListItem>Content creation & release strategy</ListItem>
+                <ListItem>Project collaborations and partnerships</ListItem>
+                <ListItem>General branding development</ListItem>
             </List>
             </Fade>
 
             <Fade top>
             <SubTitle>Community Management</SubTitle>
             <List>
-                <ListItem>Discord creation + management</ListItem>
-                <ListItem>Discord announcements</ListItem>
-                <ListItem>Custom role creation + assignment</ListItem>
-                <ListItem>Exclusive discord channels</ListItem>
-                <ListItem>Community only giveaways</ListItem>
+                <ListItem>Discord creation & management</ListItem>
+                <ListItem>Custom role creation & assignment</ListItem>
+                <ListItem>Create verified holder discord channels</ListItem>
+                <ListItem>Promote active community engagement</ListItem>
             </List>
             </Fade>
 
             <Fade top>
             <SubTitle>Development</SubTitle>
             <List>
-                <ListItem>Full Stack Web3 Development</ListItem>
-                <ListItem>Website Design + Development from in-house devs</ListItem>
+                <ListItem>Full stack Web3 development from in-house devs</ListItem>
+                <ListItem>Website design & deployment</ListItem>
                 <ListItem>Seamless minting process on ETH or SOL</ListItem>
                 <ListItem>Custom Smart Contracts (ETH)</ListItem>
                 <ListItem>Audited Rust Programs (SOL)</ListItem>

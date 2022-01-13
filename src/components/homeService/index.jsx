@@ -37,7 +37,29 @@ const Details = styled.p`
 
   @media screen and (max-width: 480px) {
     font-size: 16px;
+    text-align: center;
+    max-width: 100%;
+
 }
+`;
+
+const DescriptionContainer = styled.div`
+  height: 7em;
+  
+  @media screen and (min-width: 900px) and (max-width: 1440px) {
+    height: 15em;
+
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 900px) {
+    height: 20em;
+
+  }
+
+  @media screen and (max-width: 480px) {
+
+  }
+
 `;
 
 const Img = styled.img`
@@ -55,6 +77,21 @@ const ImgThree = styled.img`
   width: 5em;
 `;
 
+export function StrategyService(props) {
+  const { title, imageUrl, description } = props;
+  
+    return (
+      <ServiceContainer >
+            <Title> {title} </Title>
+            <ImgThree src = {imageUrl} />
+            <DescriptionContainer>
+            <Details> {description} </Details>
+            </DescriptionContainer>
+      </ServiceContainer>
+    );
+  
+}
+
 export function MarketingService(props) {
     const { title, imageUrl, description } = props;
     
@@ -62,8 +99,10 @@ export function MarketingService(props) {
         <ServiceContainer >
               <Title> {title} </Title>
               <ImgTwo src = {imageUrl} />
-              <Details> {description} </Details>
-        </ServiceContainer>
+              <DescriptionContainer>
+            <Details> {description} </Details>
+            </DescriptionContainer>        
+            </ServiceContainer>
       );
     
 }
@@ -75,8 +114,10 @@ export function DevService(props) {
         <ServiceContainer >
               <Title> {title} </Title>
               <Img src = {imageUrl} />
-              <Details> {description} </Details>
-        </ServiceContainer>
+              <DescriptionContainer>
+            <Details> {description} </Details>
+            </DescriptionContainer>        
+            </ServiceContainer>
       );
     
 }
@@ -89,8 +130,25 @@ export function ArtService(props) {
         <ServiceContainer >
               <Title> {title} </Title>
               <ImgThree src = {imageUrl} />
-              <Details> {description} </Details>
-        </ServiceContainer>
+              <DescriptionContainer>
+            <Details> {description} </Details>
+            </DescriptionContainer>        
+            </ServiceContainer>
       );
     
+}
+
+export function DeployService(props) {
+  const { title, imageUrl, description } = props;
+  
+    return (
+      <ServiceContainer >
+            <Title> {title} </Title>
+            <ImgThree src = {imageUrl} />
+            <DescriptionContainer>
+            <Details> {description} </Details>
+            </DescriptionContainer>
+            </ServiceContainer>
+    );
+  
 }

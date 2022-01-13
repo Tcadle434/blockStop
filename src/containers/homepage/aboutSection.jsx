@@ -47,10 +47,9 @@ export function AboutSection(props) {
     <AboutContainer name="aboutSection">
     <ContentContainer>
     <AboutContent
-    subTitle="What is"
-    title= "BlockStop"
-    descriptionOne="Our aim is to integrate industry leading names and brands into web3 + NFTs. With experts in product strategy, marketing and development, we have all the resources needed to help grow and deploy quality projects. The new age of the internet is advancing rapidly, but there are still countless opportunities for innovation"
-    descriptionTwo="In such a fast moving environment, we are here to educate and seamlessly bridge companies and top tier talent into an expanding digital world. From shaping your NFT project roadmap, to organic community growth across social media platforms, and completed with custom websites + deployment processes, we are ready to guide those who want to make their mark on the blockchain"
+    title= "Welcome to BlockStop"
+    descriptionOne="You have heard of NFTs, you have heard of the metaverse; but how do you get involved? Welcome to Blockstop - a group of marketers, developers, artists, storytellers and blockchain enthusiasts. Our mission is to introduce and integrate Web3 and Blockchain technologies with proven industry leaders to expand their existing offerings"
+    descriptionTwo="With experts in product strategy, marketing, and development, BlockStop serves as a creative hub to grow, build and deploy NFT projects for your business. A new rapidly advancing era of the internet has begun and BlockStop is ready to be your guide to this frontier"
     imageUrl={CubeImg}
     />
 
@@ -67,10 +66,10 @@ export function FeaturedSection(props) {
     <AboutContainer name="featuredSection">
     <ContentContainer>
     <AboutContent
-    subTitle="Recently Featured Client"
-    title= "Fyat Lux"
-    descriptionOne="Fyat Lux integrates AR technology with NFTs in an awesome artstic creation by Anthony Jones"
-    descriptionTwo="We lead the marketing effort for Fyat Lux's NFT campaign, growing their Twitter and Discord followings from xxxx to xx,xxx and helping to ensure a sellout that raised over 1,000 ETH"
+    title= "Our Recent Work"
+    subTitle="Fyat Lux"
+    descriptionOne="Developed by a world-class team that has worked for MIT, Google, Nintendo, Riot, Activision Blizzard, Netflix, Vuforia, Wayfair, and Disney, Fyat Lux combines groundbreaking technologies with mind-blowing art to launch the next evolution of NFTs for world-building and storytelling"
+    descriptionTwo="The Blockstop team propelled Fyat Lux to a sell out in < 24 hours with over 1000+ ETH in sales and 300% growth across Discord, Instagram and Twitter"
     imageUrl={FyatImg}
     />
 
