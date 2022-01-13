@@ -8,6 +8,7 @@ const ServiceContainer = styled.div`
   align-items: center;
   text-align: center;
   width: 25%;
+
   @media screen and (max-width: 480px) {
     display: inline-block;
 
@@ -56,9 +57,10 @@ const DescriptionContainer = styled.div`
 
   }
 
-  @media screen and (max-width: 480px) {
+ @media screen and (max-width: 480px) {
+    display: inline-block;
 
-  }
+}
 
 `;
 
