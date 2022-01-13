@@ -114,7 +114,7 @@ export function ServiceSectionContent(props) {
           <Details>In an ever-changing digital world, BlockStop will seamlessly bridge your brand with the metaverse. From bringing your imagination to reality, to shaping your NFT project roadmap and growing an organic community, Blockstop offers a wide array of services aimed to fit your vision
           </Details>
           <Fade top>
-          <MidTitle>How To Work With Blockshop?</MidTitle>
+          <MidTitle>How To Work With BlockStop?</MidTitle>
           <SubTitle>Audit / Assessment</SubTitle>
           <List>
               <ListItem>Our team will conduct an Initial onboarding & assessment - how can we help you?</ListItem>
