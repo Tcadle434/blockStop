@@ -66,7 +66,7 @@ export function FeaturedSection(props) {
     <AboutContainer name="featuredSection">
     <ContentContainer>
     <AboutContent
-    title= "Our Recent Work"
+    title= "Highlighted Client"
     subTitle="Fyat Lux"
     descriptionOne="Developed by a world-class team that has worked for MIT, Google, Nintendo, Riot, Activision Blizzard, Netflix, Vuforia, Wayfair, and Disney, Fyat Lux combines groundbreaking technologies with mind-blowing art to launch the next evolution of NFTs for world-building and storytelling"
     descriptionTwo="The Blockstop team propelled Fyat Lux to a sell out in < 24 hours with over 1000+ ETH in sales and 300% growth across Discord, Instagram and Twitter"
