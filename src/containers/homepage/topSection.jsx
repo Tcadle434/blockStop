@@ -110,6 +110,10 @@ const VideoTwo = styled.video`
   height: 56.25vw; // for a 16:9 aspect ratio, 9/16*100 = 56.25
   width: 100vw;
   object-fit: cover;
+  
+  *::-webkit-media-controls {
+    display:none !important;
+}
 
   *::-webkit-media-controls-panel {
     display: none!important;
