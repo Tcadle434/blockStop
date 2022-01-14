@@ -44,7 +44,7 @@ const Video = styled.video`
 `;
 
 const Overlay = styled.div`
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.64);
   bottom: 0;
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
   left: 0;

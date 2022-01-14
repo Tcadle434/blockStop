@@ -11,7 +11,7 @@ const PageContainer = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: rgba(1, 16, 31, 0.94);
+    background-color: #000000;
     align-items: center;
 `;
 

@@ -12,7 +12,7 @@ width: 100%;
 height: 100%;
 display: flex;
 flex-direction: column;
-background-color: rgba(1, 16, 31, 0.94);
+background-color: #000000;
 
 `;
 

@@ -9,7 +9,7 @@ const FooterContainer = styled(Element)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(1, 16, 31, 0.94);
+  background-color: #000000;
   text-align: center;
 `;
 

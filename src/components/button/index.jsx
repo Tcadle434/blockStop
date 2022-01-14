@@ -17,7 +17,7 @@ const ButtonWrapper = styled.button`
   transition: all 220ms ease-in-out;
   cursor: pointer;
   &:hover {
-    background-color: #000000;
+    background-color: #0B3B5E;
     border: none;
     color: #FFFFFF;
   }

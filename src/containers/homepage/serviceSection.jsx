@@ -16,7 +16,7 @@ const ServiceContainer = styled(Element)`
   min-height: 300px;
   display: flex;
   flex-direction: column;
-  background-color: rgba(1, 16, 31, 0.94);
+  background-color: #000000;
   align-items: center;
 
 `;
@@ -28,8 +28,7 @@ const ServiceFilter = styled.div`
     align-items: center;
     flex-direction: column;
     margin-block-end: 5em;
-
-    background-color: rgba(84, 125, 166, 0.35);
+    background-color: #0B3B5E;
 
     @media screen and (max-width: 480px) {
       margin-block-end: 0.5em;
