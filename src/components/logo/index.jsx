@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import NftLogo from "../../assets/pictures/blocklogo.png";
+import NftLogo from "../../assets/pictures/logoheader.png";
 
 const LogoContainer = styled.div`
   display: flex;
@@ -9,13 +9,13 @@ const LogoContainer = styled.div`
 `;
 
 const LogoImg = styled.img`
-  width: 10em;
-  height: 4em;
+  width: 13em;
+  height: 3.6em;
   align-items: center;
 
   @media screen and (max-width: 480px) {
-    height: 3em;
-    width: 7em;
+    height: 2em;
+    width: 7.2em;
 }
 `;
 

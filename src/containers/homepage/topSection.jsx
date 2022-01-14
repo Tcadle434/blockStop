@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Element } from "react-scroll";
 import BackgroundImg from "../../assets/pictures/test.mp4";
+import LogoImg from "../../assets/pictures/logobig.png";
 import { Navbar } from "../../components/navbar";
 // import AWS from 'aws-sdk';
 
@@ -14,7 +15,10 @@ import { Navbar } from "../../components/navbar";
 
 const TopContainer = styled.div`
     width: 100%;
-    @media screen and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        @media screen and (max-width: 480px) {
 
 }
 `;
@@ -44,7 +48,7 @@ const Video = styled.video`
 `;
 
 const Overlay = styled.div`
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.44);
   bottom: 0;
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
   left: 0;
@@ -57,6 +61,9 @@ const Overlay = styled.div`
   position: absolute;
   right: 0;
   top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 `;
 
 const NameText = styled.h1`
@@ -107,6 +114,18 @@ const VideoTwo = styled.video`
 
 `;
 
+const Img = styled.img`
+  align-items: center;
+  margin-block-start: 2em;
+
+  @media screen and (max-width: 480px) {
+    height: 15em;
+    width: 24.3em;
+    margin-block-start: 5em;
+
+}
+`;
+
 export function TopSection(props) {
 
     return(
@@ -117,12 +136,7 @@ export function TopSection(props) {
         </VideoTwo>
             <Overlay> 
                 <Navbar />
-                <NameText>
-                    BlockStop
-                </NameText>
-                <SloganText>
-                  Strategy, Marketing, Development of NFT Projects - Welcome To Web3 
-                </SloganText>          
+                <Img src ={LogoImg} />      
             </Overlay>
 
       </Element>

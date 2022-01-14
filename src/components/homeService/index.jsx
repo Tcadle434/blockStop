@@ -48,12 +48,12 @@ const Details = styled.p`
 const DescriptionContainer = styled.div`
   height: 7em;
 
-  @media screen and (min-width: 900px) and (max-width: 1440px) {
-    height: 15em;
+  @media screen and (min-width: 1200px) and (max-width: 1440px) {
+    height: 12em;
 
   }
 
-  @media screen and (min-width: 480px) and (max-width: 900px) {
+  @media screen and (min-width: 480px) and (max-width: 1200px) {
     height: 20em;
 
   }

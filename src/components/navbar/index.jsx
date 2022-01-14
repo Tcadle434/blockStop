@@ -42,7 +42,7 @@ const AccessibilityContainer = styled.div`
   min-width: 50%;
 
   @media screen and (max-width: 480px) {
-    width: 70%;
+    width: 65%;
 
 }
 `;
