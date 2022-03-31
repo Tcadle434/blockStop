@@ -12,10 +12,16 @@ const PageContainer = styled.div`
     align-items: center;
 `;
 
+const PartnerSec = React.lazy(() => {
+  return new Promise(resolve => setTimeout(resolve, 1000)).then(
+    () => import("./partnerSection")
+  );
+});
+
 export function Partners(props) {
   return(
       <PageContainer>
-        <PartnerSection />
+        <PartnerSec />
         <FooterSection />
       </PageContainer>
     );

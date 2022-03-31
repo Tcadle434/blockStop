@@ -87,3 +87,5 @@ export function FooterSection(props) {
     );
   
   }
+
+  export { FooterSection as default } from "./footerSection.jsx";

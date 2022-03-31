@@ -117,3 +117,5 @@ export function PartnerSection(props) {
         </PageContainer>
       );
   }
+
+  export { PartnerSection as default } from "./partnerSection.jsx";

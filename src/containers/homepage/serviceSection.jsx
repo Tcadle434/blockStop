@@ -97,3 +97,5 @@ export function ServiceSection(props) {
     );
   
   }
+
+  export { ServiceSection as default } from "./serviceSection.jsx";

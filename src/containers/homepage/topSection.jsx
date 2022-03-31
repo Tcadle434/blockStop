@@ -163,3 +163,5 @@ export function TopSection(props) {
       </TopContainer>
     );
   }
+
+  export { TopSection as default } from "./topSection.jsx";

@@ -169,3 +169,5 @@ export function ServiceSectionContent(props) {
       </PageContainer>
     );
 }
+
+export { ServiceSectionContent as default } from "./serviceSection.jsx";

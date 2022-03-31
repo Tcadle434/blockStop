@@ -79,3 +79,5 @@ export function FeaturedSection(props) {
   );
 
 }
+
+export { AboutSection as default } from "./aboutSection.jsx";

@@ -1,6 +1,5 @@
-import React from "react";
+import React from 'react'
 import styled from "styled-components";
-import { TopSection } from "./topSection";
 import { AboutSection, FeaturedSection } from "./aboutSection";
 import { ServiceSection } from "./serviceSection";
 import { TeamSection } from "./teamSection"
@@ -16,10 +15,16 @@ background-color: rgba(1, 16, 31, 0.94);
 
 `;
 
+const TopSec = React.lazy(() => {
+  return new Promise(resolve => setTimeout(resolve, 1000)).then(
+    () => import("./topSection")
+  );
+});
+
 export function Homepage(props) {
   return(
       <PageContainer>
-        <TopSection />
+        <TopSec/>
         <AboutSection />
         <ServiceSection />
         <FeaturedSection />

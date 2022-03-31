@@ -96,3 +96,5 @@ export function TeamSection(props) {
     );
   
   }
+
+  export { TeamSection as default } from "./teamSection.jsx";
