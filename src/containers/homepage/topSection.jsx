@@ -4,6 +4,12 @@ import { Element } from "react-scroll";
 import BackgroundImg from "../../assets/pictures/test.mp4";
 import LogoImg from "../../assets/pictures/logobig.png";
 import { Navbar } from "../../components/navbar";
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
+import ChainImg from "../../assets/pictures/chain-img.png"
+import Fade from 'react-reveal/Fade';
+import LazyLoad from 'react-lazyload';
+import { lazyload } from 'react-lazyload';
+
 // import AWS from 'aws-sdk';
 
 // var s3 = new AWS.S3({region: "us-east-1"});
@@ -131,6 +137,7 @@ const VideoTwo = styled.video`
     display: none!important;
     -webkit-appearance: none;
   }
+  
 
 `;
 
@@ -146,17 +153,26 @@ const Img = styled.img`
 }
 `;
 
-export function TopSection(props) {
 
+export function TopSection(props) {
+  const [isVideoLoaded, setIsVideoLoaded] = React.useState(false);
+
+  const onLoadedData = () => {
+    setIsVideoLoaded(true);
+  };
     return(
         < TopContainer>
         <Element name="topSection">
-        <VideoTwo autoPlay loop muted playsInline>
-            <source src="https://vsprblockchain.s3.us-east-1.amazonaws.com/compressback.mov" type="video/mp4" />
+        <LazyLoad>
+        <VideoTwo class="lazy" autoPlay muted loop playsInline onLoadedData={onLoadedData} poster={ChainImg}>
+            <source src= "https://vsprblockchain.s3.us-east-1.amazonaws.com/compressback.mov" type="video/mp4" />
         </VideoTwo>
+        </LazyLoad>
             <Overlay> 
                 <Navbar />
-                <Img src ={LogoImg} />      
+                <Fade>
+                <Img src ={LogoImg} />
+                </Fade>      
             </Overlay>
 
       </Element>

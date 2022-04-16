@@ -7,13 +7,14 @@ import SeanImg from "../../assets/pictures/tion.png";
 import NickImg from "../../assets/pictures/nick.png";
 import JaredImg from "../../assets/pictures/jared.png";
 import TestImg from "../../assets/pictures/chfty.png";
+import Fade from 'react-reveal/Fade';
 
 
 const TeamContainer = styled(Element)`
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: rgba(1, 16, 31, 0.94);
+  background-color: rgba(1, 16, 31, 0.99);
   align-items: center;
 `;
 
@@ -36,6 +37,7 @@ const Details = styled.p`
   font-family: Oxanium-Regular;
   font-size: 20px;
   width: 60%;
+  margin: auto;
   text-align: center;
 
   @media screen and (min-width: 480px) and (max-width: 1420px) {
@@ -67,9 +69,10 @@ export function TeamSection(props) {
 
     return (
       <TeamContainer name="teamSection">
+        <Fade>
           <Title>Meet The Team </Title>
-          <Details>BlockStop is a strategic group of like-minded individuals  focused on disrupting the NFT space. Our team of crypto + NFT natives have extensive marketing and technical expertise in strategy, development and overall marketing implementation. With cross-industry experience ranging from major financial institutions to the entertainment industry, the BlockStop team can translate the technical complexities to best suit your business</Details>
-
+          <Details>BlockStop is combined of crypto natives and individuals with extensive IRL connections. We are positioned to work with high profile clients and brands on their Web3 journey</Details>
+        </Fade>
           <ContentRow>
               <TeamService 
                 imageUrl={NickImg}

@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import NftLogo from "../../assets/pictures/logoheader.png";
+import NftLogo from "../../assets/pictures/blockstop-logo-only.png";
 
 const LogoContainer = styled.div`
   display: flex;
@@ -9,13 +9,24 @@ const LogoContainer = styled.div`
 `;
 
 const LogoImg = styled.img`
-  width: 13em;
-  height: 3.6em;
+  width: 4.5em;
+  height: 4.5em;
   align-items: center;
 
   @media screen and (max-width: 480px) {
-    height: 2em;
-    width: 7.2em;
+    height: 2.5em;
+    width: 2.5em;
+}
+`;
+
+const BiggerLogoImg = styled.img`
+  width: 20em;
+  height: 20em;
+  align-items: center;
+
+  @media screen and (max-width: 480px) {
+    height: 8em;
+    width: 8em;
 }
 `;
 
@@ -31,6 +42,17 @@ export function Logo(props) {
   return(
     <LogoContainer>
       <LogoImg src={NftLogo}/>
+    </LogoContainer>
+
+  );
+
+}
+
+export function BiggerLogo(props) {
+
+  return(
+    <LogoContainer>
+      <BiggerLogoImg src={NftLogo}/>
     </LogoContainer>
 
   );

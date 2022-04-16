@@ -9,7 +9,7 @@ const ServiceContainer = styled.div`
   text-align: center;
   width: 25%;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 925px) {
     display: inline-block;
     width: 100%;
 
@@ -53,12 +53,12 @@ const DescriptionContainer = styled.div`
 
   }
 
-  @media screen and (min-width: 480px) and (max-width: 1200px) {
+  @media screen and (min-width: 925px) and (max-width: 1200px) {
     height: 20em;
 
   }
 
- @media screen and (max-width: 480px) {
+ @media screen and (max-width: 925px) {
     display: inline-block;
 
 }

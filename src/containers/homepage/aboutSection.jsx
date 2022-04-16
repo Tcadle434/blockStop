@@ -4,13 +4,14 @@ import { Element } from "react-scroll";
 import { AboutContent } from "../../components/aboutComponent";
 import CubeImg from "../../assets/pictures/cube.png";
 import FyatImg from "../../assets/pictures/fyat.png";
+import ChefImg from "../../assets/pictures/chef-pizza.jpeg"
 import Fade from 'react-reveal/Fade';
 
 const AboutContainer = styled(Element)`
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: rgba(1, 16, 31, 0.94);
+  background-color: rgba(1, 16, 31, 0.99);
   align-items: center;
 `;
 
@@ -19,18 +20,18 @@ const ContentContainer = styled.div`
   flex-direction: column;
   align-items: center;
   width: 60%;
+  margin: auto;
   margin-block-start: 1.2em;
   margin-block-end: 1.2em;
 
-  @media screen and (min-width: 480px) and (max-width: 1420px) {
+  @media screen and (min-width: 925px) and (max-width: 1420px) {
     width: 80%;
   }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 925px) {
       align-items: center;
       justify-content: center;
       display: inline-block;
       width: 90%;
-
   }
 `;
 
@@ -46,13 +47,15 @@ export function AboutSection(props) {
   return (
     <AboutContainer name="aboutSection">
     <ContentContainer>
+    <Fade>
     <AboutContent
     title= "Welcome to BlockStop"
-    descriptionOne="You have heard of NFTs, you have heard of the metaverse; but how do you get involved? Welcome to Blockstop - a group of marketers, developers, artists, storytellers and blockchain enthusiasts. Our mission is to introduce and integrate Web3 and Blockchain technologies with proven industry leaders to expand their existing offerings"
-    descriptionTwo="With experts in product strategy, marketing, and development, BlockStop serves as a creative hub to grow, build and deploy NFT projects for your business. A new rapidly advancing era of the internet has begun and BlockStop is ready to be your guide to this frontier"
+    descriptionOne="We are marketers, developers, artists, storytellers and blockchain enthusiasts preparing brands for the next generation of the internet"
+    descriptionTwo="Our mission is to introduce and integrate Web3 and Blockchain technologies with proven industry leaders creating value and expanding their existing offerings. BlockStop has a proven track record successfully launching Web3 projects for celebrities, companies and their brands
+    "
     imageUrl={CubeImg}
     />
-
+   </Fade>
     </ContentContainer>
     </AboutContainer>
 
@@ -65,14 +68,15 @@ export function FeaturedSection(props) {
   return (
     <AboutContainer name="featuredSection">
     <ContentContainer>
+    <Fade>
     <AboutContent
     title= "Highlighted Client"
-    subTitle="Fyat Lux"
-    descriptionOne="Developed by a world-class team that has worked for MIT, Google, Nintendo, Riot, Activision Blizzard, Netflix, Vuforia, Wayfair, and Disney, Fyat Lux combines groundbreaking technologies with mind-blowing art to launch the next evolution of NFTs for world-building and storytelling"
-    descriptionTwo="The Blockstop team propelled Fyat Lux to a sell out in < 24 hours with over 1000+ ETH in sales and 300% growth across Discord, Instagram and Twitter"
-    imageUrl={FyatImg}
+    subTitle="CHFTY Pizzas"
+    descriptionOne="Driven by two culinary experts Tom Colicchio and Spike Mendelsohn, CHFTY is committed to building the largest community of chefs and foodies in Web3."
+    descriptionTwo="The BlockStop team fully serviced this project and enabled a sellout of 2,777 NFTs"
+    imageUrl={ChefImg}
     />
-
+    </Fade>
     </ContentContainer>
     </AboutContainer>
 

@@ -6,10 +6,10 @@ import styled from "styled-components/macro";
 const RowContainer = styled.div`
   display: flex;
   align-items: center;
-  margin-block-end: 3em;
+  margin-block-end: 7em;
   flex-direction: ${({ isReversed }) => isReversed && "row-reverse"};
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 925px) {
     display: inline-block;
     align-items: center;
 
@@ -24,7 +24,6 @@ const ServiceContainer = styled.div`
   padding: 20px;
 
   @media screen and (max-width: 480px) {
-    display: inline-block;
     align-items: center;
 }
 
@@ -83,10 +82,10 @@ const Img = styled.img`
   width: 23em;
 
 
-  @media screen and (max-width: 480px) {
-    height: 10em;
-    width: 10em;
-    margin: 0 50%;
+  @media screen and (max-width: 1000px) {
+    height: 15em;
+    width: 15em;
+    margin: auto
 }
 `;
 

@@ -4,7 +4,7 @@ import { Navbar } from "../../components/navbar";
 import { AboutContent } from "../../components/aboutComponent";
 import Fade from 'react-reveal/Fade';
 import FyatImg from "../../assets/pictures/fyat.png";
-import ChftyImg from "../../assets/pictures/chfty.png";
+import ChftyImg from "../../assets/pictures/chef-pizza.jpeg";
 import ASRCImg from "../../assets/pictures/asrc.png";
 
 
@@ -84,22 +84,21 @@ export function PartnerSection(props) {
         <ContentContainer>
         <Details>Our goal at BlockStop is to provide expertise in all areas you will encounter on your Web3 journey. Here are some recent projects we've teamed up with
         </Details>
-
+        <Fade top>
+        <AboutContent
+            title= "CHFTY Pizzas"
+            descriptionOne="Led by two culinary experts who are excited to dive head first into the metaverse, Tom Colicchio and Spike Mendelsohn are building the largest chef and foodie community in NFTs"
+            descriptionTwo="The BlockStop team fully serviced this project from a development + marketing standpoint, enabling a sellout of 2,777 NFTs"
+            imageUrl={ChftyImg}
+            
+        />
+        </Fade>
         <Fade top>
         <AboutContent
             title= "Fyat Lux"
             descriptionOne="Developed by a world-class team that has worked for MIT, Google, Nintendo, Riot, Activision Blizzard, Netflix, Vuforia, Wayfair, and Disney, Fyat Lux combines groundbreaking technologies with mind-blowing art to launch the next evolution of NFTs for world-building and storytelling"
             descriptionTwo="The Blockstop team propelled Fyat Lux to a sell out in < 24 hours with over 1000+ ETH in sales and 300% growth across Discord, Instagram and Twitter"
             imageUrl={FyatImg}
-        />
-        </Fade>
-
-        <Fade top>
-        <AboutContent
-            title= "CHFTY Pizzas"
-            descriptionOne="Led by two culinary experts who are excited to dive head first into the metaverse, Tom Colicchio and Spike Mendelsohn are building the largest chef and foodie community in NFTs"
-            descriptionTwo="BlockStop is leading the product strategy and marketing efforts for CHFTY, with a focus to organically grow their community and provide long term value to the CHFTY Pizza holders"
-            imageUrl={ChftyImg}
             isReversed
         />
         </Fade>

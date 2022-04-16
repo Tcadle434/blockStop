@@ -16,8 +16,9 @@ const ServiceContainer = styled(Element)`
   min-height: 300px;
   display: flex;
   flex-direction: column;
-  background-color: rgba(1, 16, 31, 0.94);
+  background-color: rgba(1, 16, 31, 0.99);
   align-items: center;
+  margin: auto;
 
 `;
 
@@ -42,6 +43,11 @@ const CenterContainer = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+    @media screen and (max-width: 925px) {
+      display: inline-block;
+      margin: auto;
+  
+  }
 `;
 
 const ContentContainer = styled.div`
@@ -49,8 +55,9 @@ const ContentContainer = styled.div`
     flex-direction: row;
     align-items: center;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 925px) {
         display: inline-block;
+        margin: auto;
     
     }
 `;

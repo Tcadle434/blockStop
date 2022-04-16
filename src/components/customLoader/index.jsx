@@ -1,35 +1,38 @@
 import React from "react";
-import {LineWave} from "react-loader-spinner";
 import styled from "styled-components/macro";
-
+import CustomImageLoader from 'custom-image-loader-react';
+import NftLogo from "../../assets/pictures/logo-bigger.png";
 
 const LoaderContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(1, 16, 31, 0.94);
+  background-color: black;
   height: 100vh;
-
-  @media screen and (max-width: 480px) {
-
-}
-
 `;
 
+const LoaderRow = styled.div`
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  align-items: center;
+`;
+
+
+
 export function CustomLoader(props) {
-    const { msg } = props;
 
     return(
         <LoaderContainer>
-          <LineWave
-            type="Spinner Type"
-            color="white"
-            height={500}
-            width={500}
-            ariaLabel="three-circles-rotating"r
-          />        
-        <p>{msg}</p>
+          <LoaderRow>
+            <CustomImageLoader
+              image={NftLogo}
+              isLoaded={true}
+              circle={false}
+              speed={2}
+              animationType={'flash'}
+            />
+          </LoaderRow>
         </LoaderContainer>
     );
-  
   }
