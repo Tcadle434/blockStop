@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { Logo } from "../logo";
 import { Element, scroller } from "react-scroll";
 
-
 const NavbarContainer = styled.div`
   width: 100%;
   height: 80px;

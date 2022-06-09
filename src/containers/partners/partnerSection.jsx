@@ -102,15 +102,6 @@ export function PartnerSection(props) {
             isReversed
         />
         </Fade>
-
-        <Fade top>
-        <AboutContent
-            title= "Anti Social Robot Club"
-            descriptionOne="The ASRC is a lore-driven Solana project where robots have taken over. In the wake of victory, they took parts of the human brain and infused it into their own motherboards, deeming them the first robots with emotions"
-            descriptionTwo="Blockstop aided in the development of this project, including the mint process, creation of the website and the 2D -> 3D Upgrade process. The site has Web3 and wallet integration on the Solana Blockchain"
-            imageUrl={ASRCImg}
-        />
-        </Fade>
         
         </ContentContainer>
         </PageContainer>

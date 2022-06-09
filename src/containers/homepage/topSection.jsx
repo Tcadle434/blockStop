@@ -161,7 +161,7 @@ export function TopSection(props) {
     setIsVideoLoaded(true);
   };
     return(
-        < TopContainer>
+        <TopContainer>
         <Element name="topSection">
         <LazyLoad>
         <VideoTwo class="lazy" autoPlay muted loop playsInline onLoadedData={onLoadedData} poster={ChainImg}>
